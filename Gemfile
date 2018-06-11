@@ -5,3 +5,7 @@ group :development do
   gem 'guard'
   gem 'guard-rspec'
 end
+
+group :test do
+  gem 'rspec_junit_formatter'
+end
